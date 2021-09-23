@@ -1,6 +1,5 @@
-# Hindi Handwritten Characters recognition  
+# Hindi Handwritten Characters recognition Using OCR 
 
-My attempt at recreating ,Hindi Handwriting Recognition system using Deep Learning via Keras and Python, from a research paper written by Shailesh Acharya, Ashok Kumar Pant and Prashna Kumar Gyawali.
 
 The Link for research paper is [here](https://ieeexplore.ieee.org/abstract/document/7400041)
 
@@ -11,3 +10,5 @@ python jupyter notebook
 ```
 
 Load.py will convert the dataset into .csv file
+
+Wehave reffered [this](https://ieeexplore.ieee.org/abstract/document/7400041) research paper for the project.
