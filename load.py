@@ -19,14 +19,6 @@ def load_images_from_folder(folder,letter,output):
         #roi=img[2:30,2:30]
         final.append([str(letter)]+list(img.flatten()))
         writefile(final,output)
-        # if flag==0:
-        #     cv2.imshow('image',img)
-        #     cv2.imshow('cropped',roi)
-        #     print(img.shape)
-        #     print(roi.shape)
-        #     cv2.waitKey(0)
-        #     cv2.destroyAllWindows()
-        #     flag=1
         if img is not None:
             images.append(img)
     return images
